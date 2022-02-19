@@ -39,6 +39,10 @@ const Slider = styled.div`
   will-change: transform;
   position: relative;
   cursor: pointer;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 const MovieCard = styled.div<{bgPhoto: string}>`
